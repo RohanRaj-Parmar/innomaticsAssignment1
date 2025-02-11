@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="nav-links">
+                <a href="#All" class="active">All</a>
+                <a href="#home" class="active">Home</a>
+                <a href="#Deals" class="active">Todays Deals</a>
+                <a href="#Sell" class="active">Sell</a>
+                <a href="#contactUs" class="active">contact Us</a>
+                <!-- <a href="#mobiles">Mobiles</a>
+                <a href="#laptops">Laptops</a>
+                <a href="#accessories">Accessories</a> -->
+            </div>
+            <div class="cart-icon" id="cartIcon">
+                🛒
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h1>Our Products</h1>
+        <div class="product-grid" id="productGrid"></div>
+    </main>
+
+    <div class="cart-panel" id="cartPanel">
+        <h2>Shopping Cart</h2>
+        <div id="cartItems"></div>
+        <div id="cartTotal"></div>
+        <button class="empty-cart" id="emptyCart">Empty Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
